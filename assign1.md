@@ -1,7 +1,7 @@
 Varaint Sampling Demonstrate
 ========================================================
 author: Pattarapong Ingsakulrunraung
-date: 
+date: 22 June 2015
 
 Overview
 ========================================================
@@ -56,7 +56,7 @@ sample(c("a","b"), 10,prob=c(0.7,0.3),replace=TRUE)
 ```
 
 ```
- [1] "b" "a" "b" "b" "b" "b" "a" "b" "a" "b"
+ [1] "a" "a" "a" "a" "a" "a" "a" "a" "b" "a"
 ```
 
 * using input$refresh inside reactive to refresh
